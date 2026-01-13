@@ -20,7 +20,7 @@ Using a global dataset of reported sightings, I focused on **location**, not the
 
 ## 🛠️ Tech Stack
 
-python • Jupyter notebooks • pandas • geopandas • matplotlib & seaborn • folium • scipy
+Python • Jupyter notebooks • pandas • geopandas • matplotlib & seaborn • folium • scipy
 
 ## 🔧 Process
 
