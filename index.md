@@ -1,6 +1,6 @@
 # Joe - VR, Games, Software Developer & Creative Coder
 
-Welcome to my portfolio.  I build modular VR experiences, music apps, websites and playful prototypes.
+Welcome to my portfolio.  I create modular VR experiences, music apps, data-wrangling workflows, and purpose-built websites.
 
 ## Featured Projects
 
