@@ -4,7 +4,7 @@ Welcome to my portfolio.  I build modular VR experiences, music apps, websites a
 
 ## Featured Projects
 
-- [VR Unity-prototype](projects/vr-unity-prototype.md)
-- [UFO Jupyter-notebook](projects/ufo-jupyter-notebook.md)
-- [DJ Juce-app](projects/dj-juce-app.md)
-- [facecam p5.js](pojects/facecam-p5js.md)
+- [VR Interaction Prototype](projects/vr-interaction-prototype.md)
+- [UFO Data Explorer](projects/ufo-data-explorer.md)
+- [DJ App](projects/dj-app.md)
+- [Facecam Fun](pojects/facecam-fun.md)
