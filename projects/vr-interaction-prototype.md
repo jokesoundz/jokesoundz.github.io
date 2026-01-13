@@ -14,11 +14,11 @@ The name of the project is 'Reality is Blurry' and the long-term goal is to evol
 - Implemented locomtion, teleportation, and vignette-based comfort settings
 - Designed interaction logic with modularity and accessibilty in mind
 - Prototyped early universal-design features for low-vision players
-- Debugged collider issues, timing prbolems, and intraction edge cases
+- Debugged collider issues, timing prbolems, and interaction edge cases
 
 ## 🛠️ Tech Stack
 
-Unity | C# | XR Interaction Toolkit | OpenXR | Meta Quest Developer Hub | Spatial Audio | Animator Controller
+Unity • C# • XR Interaction Toolkit • OpenXR • Meta Quest Developer Hub • Spatial Audio • Animator Controller
 
 ## 🔧 Process
 
@@ -52,7 +52,21 @@ Create VR interaction system that feels intuitive, comfortable and accessible, w
 ## ⭐ Reflections
 
 ### What worked
+- Gaze interaction felt intuitive and required no controlller precision
+- Multimodal feedback improved clarity for all users
+- Teleportation + vignettes offer clear signs to tackle simulator sickness
+- Modular scripts made iteration fast and clean, as well as readable code for later updates
 
 ### What I'd improve
+- Add haptic feedback for controller users
+- Expand accessibility options (visual contrast modes, audio descriptions)
+- Improve animation blending for smoother transitions
+- Add dwell state to gaze interaction for improved gameplay
+- More environmental cues for low-vision navigation
 
 ### What I learned
+- Accessbility must be baked into interaction design from the start
+- Gaze-based systems require careful timing to avoid accidental or overly frequent activation
+- XR rigs can be fine-tuned but can cause a variety of mishaps if not properly understood
+- Modular architecture pays off immediately in VR protyping and bug-fixing
+
