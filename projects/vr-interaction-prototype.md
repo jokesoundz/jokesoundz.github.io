@@ -18,19 +18,36 @@ The name of the project is 'Reality is Blurry' and the long-term goal is to evol
 
 ## 🛠️ Tech Stack
 
-Unity | C# | XR Interaction Toolkit | OpenXR | Spatial Audio | Animator Controller
+Unity | C# | XR Interaction Toolkit | OpenXR | Meta Quest Developer Hub | Spatial Audio | Animator Controller
 
 ## 🔧 Process
 
 ### Goal
+Create VR interaction system that feels intuitive, comfortable and accessible, whilst laying groundwork for future game that tackles visual impairment in novel ways.
 
 ### Constraints
+- Must work on standard VR hardware without eye-tracking
+- Needs to minimise simulator sickness
+- Interactions must be obvious for players with varying visual abilities
+- Prototype must reamin modular for future expansion
 
 ### Approach
+- Used XR Interaction Toolkit for consistent interaction patterns
+- Implemented gaze-based selection using raycasts + timed activation
+- Added animation and sound cues to reinforce feedback
+- Integrated locomotion & teleport with distinct vignette comfort modes
+- Structured logic into modular components for easy iteration
 
 ### Key Decisions
+- Feedback is multimodal (animation + sound) to support low-vision users
+- Interaction scripts are modular to support future accessiblity features
 
 ## 🎥 Media
+- gaze interaction activating the helmet
+
+- vignette comfort mode
+
+- diagram of gaze interaction state flow
 
 ## ⭐ Reflections
 
