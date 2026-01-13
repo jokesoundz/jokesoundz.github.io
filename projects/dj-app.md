@@ -1,4 +1,4 @@
-# DJ Juce Application
+# 🎛️ DJ Juce Application
 
 Built a DJ app that grew my C++ literacy and engagmenent with audio programming using OOP principles and modular system design.
 
@@ -14,7 +14,7 @@ Juce | C++ |
 
 ### Goal
 
-### Cconstraints
+### Constraints
 
 ### Approach
 
