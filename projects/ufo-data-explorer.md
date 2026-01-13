@@ -1,22 +1,24 @@
 # 🛸 UFO Data Explorer
 
-A data science project where I honed my Python skills by analysing real UFO sighting data and exploring the geography of where sightings *do* and *don't* occur.
+A data science project exploring the geography of UFO sightings - and the gaps, biases, and unanswered questions hidden inside incomplete datasets.
 
 ## 🧠 Concept
 
-This project started with a simple question:
+This project began with a deliberately prvocative question:
 
-***If UFO sightings cluster in certain places, where are the places that never see them?***
+***Where in the world are UFO sightings _not_ being reported - and what might those gaps mean?***
 
-Using a global dataset of reported sightings, I focused on **location**, not the stories.  My initial ideas to generate an 'inverse map' using Voronoi diagrams to highlight regions furthest from any sighting.  When that approach proved computationally impractical, I pivoted to comparing UFO locations with other datasets of known sky anomalies such as meteors and fireballs, to explore how multiple layers of geospatial data might inform future research.
+Rather than hunting for patterns in the sightings themselves, I focused on the _voids_: the regions with few or no reports, the inconsistencies in global data collection, and the limitations of drawing bold conclusions from imperfect information.  The notebook frames the work as both a technical exercise and a reflection on how data science can mislead when the dataset is patchy, biased, or incomplete.
+
+My original plan was to generate an 'inverse map' using Voronoi diagrams to highlight the areas furthest from any reported sighting.  After outlining the method, I found the global-scale computation impractical - so I pivoted.  I brought in two NASA datasets (fireballs and meteorite landings) to compare known atmostpheric events with reported UFO locations, exploring how multiple layers of sky-activity data might inform future research.
 
 ## 🧩 My Role
 
-- Designed and exectured the full data exploration workflow
-- Cleaned, transformed, and analysed geospatial datasets
+- Designed and executed the full data exploration workflow
+- Cleaned and analysed multiple geospatial datasets
 - Experimented with Voroni-based mapping concepts
-- Built visualisations using Python geospatial libraries
-- Documented the process, decisions, and limitations in a Jupyter Notebook
+- Built maps and visualisations using Python geospatial libraries
+- Reflected on data gaps, bias, and the limits of interpretation
 
 ## 🛠️ Tech Stack
 
@@ -26,29 +28,30 @@ Python • Jupyter notebooks • pandas • geopandas • matplotlib & seaborn �
 
 ### Goal
 
-To explore the geography of UFO sightings and attempt to map the regions maximally distant from any reported sighting.
+To explore UFO sightings through the lens of _absence_, not presence - and to experiment with geospatial methods for mappin the 'quiet zones' of reported activity.
 
 ### Constraints
 
 - Voronoi-based inverse mapping was computationally heavy for global-scale data
-- Inconsistent formatting and missing values in the UFO dataset
+- UFO dataset contained inconsistencies, missing values, and uneven global coverage
+- NASA datasets varied in resolution and format
 - Time constraints for implementing a full geospatial pipeline
 
 ### Approach
 
 - Cleaned and standardised the UFO dataset
-- Plotted global sighting clusters using geopandas and folium
+- Mapped sightings year-by-year to reveal clustering
 - Outlined a method for generating inverse Voronoi regions
-- Pivoted to analysing additional datasets (meteors, fireballs, etc)
-- Compared spatial patterns accross multiple phenomena
-- Reflected on how these layers could support future research
+- Pivoted to comparing UFO data with NASA meteor and fireball datasets
+- Explored overlaps, mismatches, and what they imply about reporting bias
+- Reflected on the philosophical side of 'unknown' vs 'unidentified'
 
 ### Key Decisions
 
-- Prioritised documenting the Voronoi method rather than forcing an incomplete implementation
-- Expanded the project scope to include meteor and fireball datasets
+- Documented the Voronoi method rather than forcing an incomplete implementation
+- Expanded the project to include NASA datasets for richer comparison
 - Chose visual clarity over algorithmic complexity for the final maps
-- Focused on exploratory insight rather than definitive conclusions
+- Emphasised the limitation of the data as part of the project's value
 
 ## 🎥 Media
 
@@ -56,18 +59,19 @@ To explore the geography of UFO sightings and attempt to map the regions maximal
 
 ### What worked
 
-- Clear documentation of both successful and abandoned approaches
-- Strong use of Python's geospatial ecosystem
-- Effective visualisations that reveal clustering patterns
+- Honest documentation of both successful and abandoned approaches
+- Clear visualisations that highlight clustering and absence
+- A playful but thoughtful narrative about uncertainty and bias
 
 ### What I'd improve
 
-- Implement a more efficient Voronoi pipeline using spatial indexing or tiling
-- Explore machin-learning clustering methods for anomaly detection
+- Implement a more efficient Voronoi pipeline using spatial indexing
+- Bring in hihger-resolution global datasets
+- Explore clustering or anomaly-detection methods for cross-dataset comparison
 
 ### What I learned
 
-- How to work with messy real-world geospatial data
+- How to handle messy real-world geospatial data
 - The limits of certain algorithms at global scale
-- The value of pivoting when a method becomes impractical
-- How layering multiple datasets can reveal richer patterns
+- The importance of interrogating what's missing, not just what's present
+- That exploratory analysis can be meaningful even without a definitive conclusion
