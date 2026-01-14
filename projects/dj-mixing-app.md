@@ -19,7 +19,7 @@ The result is a lightweight but expressive mixing tool with two decks, a functio
 
 ## 🛠️ Tech Stack
 
-C++ • JUCE • Object-Oriented Programming • Audio playback • GUI components • Basic text parsing
+C++ • JUCE • Visual Studio • Object-Oriented Programming • Audio playback • GUI components • Basic text parsing
 
 ## 🔧 Process
 
