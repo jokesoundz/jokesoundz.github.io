@@ -92,12 +92,6 @@ To explore UFO sightings through the lens of _absence_, not presence - and to ex
   </figure>
 </div>
 
-<figure style="margin-bottom: 24px;">
-  <img src="/assets/images/ufo-data-explorer/UFO-truth-data-final-remarks.png" alt="screenshot of final remarks section of the UFO data analysis notebook">
-  <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-    Some final remarks about comparitive data analysis
-  </figcaption>
-</figure>
   
 
 ## ⭐ Reflections
