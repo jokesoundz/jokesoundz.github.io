@@ -76,7 +76,7 @@ To build a modular, extensible DJ app that demonstrates strong OOP design and fe
 <figure style="margin-bottom: 24px;">
   <img src="/assets/images/dj-mixing-app/code-snippit-tokenizer.png" alt="code snippit for tokenizer in DJ app">
   <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-    Tokenizer code snippit - for parsing filenames into track | title
+    Tokenizer code snippit - for parsing filenames into title | artist
   </figcaption>
 </figure>
 
