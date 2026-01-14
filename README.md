@@ -14,6 +14,6 @@ Project-specific icons:
 - 👁️ VR Interaction Prototype
 - 🛸 UFO Data Explorer
 - 🎛️ DJ Mixing App
-- 🎭 Brat Snaps Webcam App
+- 🎭 Brat Snaps Webcam Widget
 
 Keeping the portfolio scannable, modular, and consistent across projects.
