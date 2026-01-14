@@ -55,32 +55,49 @@ To explore UFO sightings through the lens of _absence_, not presence - and to ex
 
 ## 🎥 Media
 
-<div style="display: grid; grid-template-columns: 1fr; gap: 16px;">
+<figure style="margin-bottom: 24px;">
+  <img src="/assets/images/ufo-data-explorer/Voronoi-diagrams-explanation-trimmed.PNG" alt="screenshot of Voronoi diagram and code to build it">
+  <figcaption style="text-align: center; font-size:0.9em; color:#666;">
+    Voronoi diagrams example
+  </figcaption>
+</figure>
+
+<div style="display: grid; grid-template-columns: 1fr; gap: 16px; margin-bottom: 24px">
   <figure>
-    <img src="/assets/images/ufo-data-explorer/Voronoi-diagrams-explanation.png" alt="screenshot of Voronoi diagram and explanation of mathemtical principles">
-    <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-      Mathematical approach of using Voronoi diagrams, and limitations
-    </figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/images/ufo-data-explorer/anomalous-data-on-mars.png" alt="screenshot of identification of anomaly using processed map image">
+    <img src="/assets/images/ufo-data-explorer/fireball-data-map-with-anomaly.png" alt="map of fireball data with anomaly">
     <figcaption style="text-align: center; font-size:0.9em; color:#666;">
       Identifying an anomaly (on Mars!)
     </figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/ufo-data-explorer/comparitive-map-of-datasets.png" alt="screenshot of map from project comparing three kinds of data">
+    <img src="/assets/images/ufo-data-explorer/meteorite-on-mars.png" alt="screenshot of info about meteorite from mars">
+    <figcaption style="text-align: center; font-size:0.9em; color:#666;">
+      Identifying an anomaly (on Mars!)
+    </figcaption>
+  </figure>
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr; gap: 16px; margin-bottom: 24px">
+  <figure>
+    <img src="/assets/images/ufo-data-explorer/comparitive-map-of-datasets-code.PNG" alt="code for building comparitive map">
     <figcaption style="text-align: center; font-size:0.9em; color:#666;">
       Building map comparing all key data
     </figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/ufo-data-explorer/UFO-truth-data-final-remarks.png" alt="screenshot of final remarks section of the UFO data analysis notebook">
+    <img src="/assets/images/ufo-data-explorer/comparitive-map-of-datasets-map.PNG" alt="comparitive map made using matplotlib">
     <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-      Some final remarks about comparitive data analysis
+      Building map comparing all key data
     </figcaption>
   </figure>
 </div>
+
+<figure style="margin-bottom: 24px;">
+  <img src="/assets/images/ufo-data-explorer/UFO-truth-data-final-remarks.png" alt="screenshot of final remarks section of the UFO data analysis notebook">
+  <figcaption style="text-align: center; font-size:0.9em; color:#666;">
+    Some final remarks about comparitive data analysis
+  </figcaption>
+</figure>
   
 
 ## ⭐ Reflections
