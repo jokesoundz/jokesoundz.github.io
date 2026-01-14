@@ -1,10 +1,10 @@
-# 🎭 Facecam Fun
+# 🎭 Brat Snaps Webcam App
 
-A playful retro-styled webcam app built with p5.js, featuring custom visual filters, simple ML-powered face detection, and a grid-based snapshot gallery.
+A playful retro-styled webcam app, 'Brat Snaps' built with p5.js, featuring custom visual filters, simple ML-powered face detection, and a grid-based snapshot gallery.
 
 ## 🧠 Concept
 
-Facecam Fun is a lightweight javascript graphics app designed around a deliberately kitschy 'brat-summer green' aesthetic.  The idea was simple: take a webcam photo, then instantly generate a 3x6 grid of stylised variations of your face.
+Brat Snaps is a lightweight javascript graphics app designed around a deliberately kitschy 'brat-summer green' aesthetic.  The idea was simple: take a webcam photo, then instantly generate a 3x6 grid of stylised variations of your face.
 
 Each tile applies a different visual effect - some built using p5.js native tools, others implemented from scrach after researching analogue video systems (PAL), colour-space transofrmations (CMYK), gamma adjustment, and blur techniques.  One tile uses a machine-learning model (objectedetect) to detect a face and let the user swap it out for something else, adding a plyaful, slightly chaotic twist.
 
@@ -68,7 +68,7 @@ To build a simple, browser-based webcam app that generates a playful grid of sty
 
 - Optimise custom filters for better performance on lower-end devices
 - Add more interactive controls (filter toggles, intensity sliders)
-- Imprve face-swap accuracy with more robust ML model
+- Improve face-swap accuracy with more robust ML model
 
 ### What I learned
 
