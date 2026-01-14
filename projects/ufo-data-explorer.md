@@ -58,7 +58,7 @@ To explore UFO sightings through the lens of _absence_, not presence - and to ex
 <figure style="margin-bottom: 24px;">
   <img src="/assets/images/ufo-data-explorer/Voronoi-diagrams-explanation-trimmed.PNG" alt="screenshot of Voronoi diagram and code to build it">
   <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-    Voronoi diagrams example
+    Code for building simple Voronoi diagrams
   </figcaption>
 </figure>
 
@@ -66,13 +66,13 @@ To explore UFO sightings through the lens of _absence_, not presence - and to ex
   <figure>
     <img src="/assets/images/ufo-data-explorer/fireball-data-map-with-anomaly.png" alt="map of fireball data with anomaly">
     <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-      Identifying an anomaly (on Mars!)
+      Noticing an anomaly on the world map
     </figcaption>
   </figure>
   <figure>
     <img src="/assets/images/ufo-data-explorer/meteorite-on-mars.png" alt="screenshot of info about meteorite from mars">
     <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-      Identifying an anomaly (on Mars!)
+      My anomalous datapoint was on mars!
     </figcaption>
   </figure>
 </div>
@@ -81,13 +81,13 @@ To explore UFO sightings through the lens of _absence_, not presence - and to ex
   <figure>
     <img src="/assets/images/ufo-data-explorer/comparitive-map-of-datasets-code.PNG" alt="code for building comparitive map">
     <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-      Building map comparing all key data
+      Code for building my comparitive map
     </figcaption>
   </figure>
   <figure>
     <img src="/assets/images/ufo-data-explorer/comparitive-map-of-datasets-map.PNG" alt="comparitive map made using matplotlib">
     <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-      Building map comparing all key data
+      My matplotlib map comparing datasets
     </figcaption>
   </figure>
 </div>
