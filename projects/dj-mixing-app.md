@@ -59,6 +59,27 @@ To build a modular, extensible DJ app that demonstrates strong OOP design and fe
 
 ## 🎥 Media
 
+<figure style="margin-bottom: 24px;">
+  <img src="/assets/images/dj-mixing-app/Projucer-settings.png" alt="Projucer overview of DJ mixing app files">
+  <figcaption style="text-align: center; font-size:0.9em; color:#666;">
+    Projucer files list
+  </figcaption>
+</figure>
+
+<figure style="margin-bottom: 24px;">
+  <img src="/assets/images/dj-mixing-app/decks-demo.gif" alt="demo of DJ mixing app loading and playing track">
+  <figcaption style="text-align: center; font-size:0.9em; color:#666;">
+    DJ mixing app demo
+  </figcaption>
+</figure>
+
+<figure style="margin-bottom: 24px;">
+  <img src="/assets/images/dj-mixing-app/code-snippit-tokenizer.png" alt="code snippit for tokenizer in DJ app">
+  <figcaption style="text-align: center; font-size:0.9em; color:#666;">
+    Tokenizer code snippit - for parsing filenames into track | title
+  </figcaption>
+</figure>
+
 ## ⭐ Reflections
 
 ### What worked
