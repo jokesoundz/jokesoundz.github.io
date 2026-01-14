@@ -6,7 +6,7 @@ A data science project exploring the geography of UFO sightings - and the gaps, 
 
 This project began with a deliberately prvocative question:
 
-***Where in the world are UFO sightings *not* being reported - and what might those gaps mean?***
+***Where in the world are UFO sightings not being reported - and what might those gaps mean?***
 
 Rather than hunting for patterns in the sightings themselves, I focused on the _voids_: the regions with few or no reports, the inconsistencies in global data collection, and the limitations of drawing bold conclusions from imperfect information.  The notebook frames the work as both a technical exercise and a reflection on how data science can mislead when the dataset is patchy, biased, or incomplete.
 
