@@ -56,9 +56,9 @@ To build a simple, browser-based webcam app that generates a playful grid of sty
 ## 🎥 Media
 
 <figure style="margin-bottom: 24px;">
-  <img src="/assets/images/brat-snaps-webcam-widget/bratsnaps-demo1.gif" alt="bratsnaps application grid view">
+  <img src="/assets/images/brat-snaps-webcam-widget/bratsnaps-demo-infloop.gif" alt="bratsnaps application grid view">
   <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-    fig 1
+    BratSnaps Demo
   </figcaption>
 </figure>
 
@@ -66,21 +66,21 @@ To build a simple, browser-based webcam app that generates a playful grid of sty
   <figure>
     <img src="/assets/images/brat-snaps-webcam-widget/face-found.png" alt="bratsnaps face found image">
     <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-      fig 2
+      Face Detected
     </figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/brat-snaps-webcam-widget/face-track-play.gif" alt="bratsnaps filter effects on face tracked livefeed">
+    <img src="/assets/images/brat-snaps-webcam-widget/face-track-play-infloop.gif" alt="bratsnaps filter effects on face tracked livefeed">
     <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-      fig 3
+      Face Tracking Filters
     </figcaption>
   </figure>
 </div>
 
 <figure style="margin-bottom: 24px;">
-  <img src="/assets/images/brat-snaps-webcam-widget/noise+mix-filters.gif" alt="screenshot of moving filters and mixing colours">
+  <img src="/assets/images/brat-snaps-webcam-widget/noise+mix-filters-infloop.gif" alt="screenshot of moving filters and mixing colours">
   <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-    fig 4
+    Extra Filters
   </figcaption>
 </figure>
 
