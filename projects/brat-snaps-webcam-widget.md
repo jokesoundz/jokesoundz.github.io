@@ -62,6 +62,13 @@ To build a simple, browser-based webcam app that generates a playful grid of sty
   </figcaption>
 </figure>
 
+<figure style="margin-bottom: 24px;">
+  <img src="/assets/images/brat-snaps-webcam-widget/PAL-colourspace-conversion-algorithm.png" alt="colourspace algorithm code snippet">
+  <figcaption style="text-align: center; font-size:0.9em; color:#666;">
+    Code snippit for PAL colourspace conversion algorithm
+  </figcaption>
+</figure>
+
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px;">
   <figure>
     <img src="/assets/images/brat-snaps-webcam-widget/face-found.png" alt="bratsnaps face found image">
