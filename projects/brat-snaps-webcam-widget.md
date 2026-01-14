@@ -1,4 +1,4 @@
-# 🎭 Brat Snaps Webcam App
+# 🎭 Brat Snaps Webcam Widget
 
 A playful retro-styled webcam app, 'Brat Snaps' built with p5.js, featuring custom visual filters, simple ML-powered face detection, and a grid-based snapshot gallery.
 
