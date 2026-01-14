@@ -19,7 +19,7 @@ Each tile applies a different visual effect - some built using p5.js native tool
 
 ## 🛠️ Tech Stack
 
-p5.js • Javascript • HTML • objectdetect (ML model) • Custom image-processing algorithms
+p5.js • VS Code • JavaScript • HTML • objectdetect (ML model) • Custom image-processing algorithms
 
 ## 🔧 Process
 
