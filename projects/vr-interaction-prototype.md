@@ -49,11 +49,19 @@ Create VR interaction system that feels intuitive, comfortable and accessible, w
 
 ## 🎥 Media
 
-- gaze interaction activating the helmet
+<figure style="margin-bottom: 24px;">
+  <img src="/assets/images/vr-interaction-prototype/interaction-diagrams.png" alt="Early diagrams of interaction techniques">
+  <figcaption style="text-align: center; font-size:0.9em; color:#666;">
+    Sketch diagrams of interaction techniques
+  </figcaption>
+</figure>
 
-- vignette comfort mode
-
-- diagram of gaze interaction state flow
+<figure style="margin-bottom: 24px;">
+  <img src="/assets/images/vr-interaction-prototype/gaze-interaction-in-unity.gif" alt="Demo of VR game">
+  <figcaption style="text-align: center; font-size:0.9em; color:#666;">
+    Gaze interaction, helmet animation state control, vignette
+  </figcaption>
+</figure>
 
 ## ⭐ Reflections
 
