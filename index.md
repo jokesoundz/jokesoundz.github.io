@@ -7,4 +7,4 @@ Welcome to my portfolio.  I create modular VR experiences, music apps, data-wran
 - 👁️ [VR Interaction Prototype](projects/vr-interaction-prototype.md)
 - 🛸 [UFO Data Explorer](projects/ufo-data-explorer.md)
 - 🎛️ [DJ Mixing App](projects/dj-mixing-app.md)
-- 🎭 [Facecam Fun](projects/facecam-fun.md)
+- 🎭 [Brat Snaps Webcam App](projects/brat-snaps-webcam-app.md)
