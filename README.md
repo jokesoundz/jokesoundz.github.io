@@ -13,7 +13,7 @@ Each icon marks a specific type of information:
 Project-specific icons:
 - 👁️ VR Interaction Prototype
 - 🛸 UFO Data Explorer
-- 🎛️ DJ App
-- 🎭 Facecam Fun
+- 🎛️ DJ Mixing App
+- 🎭 Brat Snaps Webcam App
 
 Keeping the portfolio scannable, modular, and consistent across projects.
