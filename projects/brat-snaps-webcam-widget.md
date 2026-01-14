@@ -55,13 +55,14 @@ To build a simple, browser-based webcam app that generates a playful grid of sty
 
 ## 🎥 Media
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-  <figure>
-    <img src="/assets/images/brat-snaps-webcam-widget/bratsnaps-demo1.gif" alt="bratsnaps application grid view">
-    <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-      fig 1
-    </figcaption>
-  </figure>
+<figure style="margin-bottom: 24px;">
+  <img src="/assets/images/brat-snaps-webcam-widget/bratsnaps-demo1.gif" alt="bratsnaps application grid view">
+  <figcaption style="text-align: center; font-size:0.9em; color:#666;">
+    fig 1
+  </figcaption>
+</figure>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px;">
   <figure>
     <img src="/assets/images/brat-snaps-webcam-widget/face-found.png" alt="bratsnaps face found image">
     <figcaption style="text-align: center; font-size:0.9em; color:#666;">
@@ -74,13 +75,15 @@ To build a simple, browser-based webcam app that generates a playful grid of sty
       fig 3
     </figcaption>
   </figure>
-  <figure>
-    <img src="/assets/images/brat-snaps-webcam-widget/noise+mix-filters.gif" alt="screenshot of moving filters and mixing colours">
-    <figcaption style="text-align: center; font-size:0.9em; color:#666;">
-      fig 4
-    </figcaption>
-  </figure>
 </div>
+
+<figure style="margin-bottom: 24px;">
+  <img src="/assets/images/brat-snaps-webcam-widget/noise+mix-filters.gif" alt="screenshot of moving filters and mixing colours">
+  <figcaption style="text-align: center; font-size:0.9em; color:#666;">
+    fig 4
+  </figcaption>
+</figure>
+
 
 ## ⭐ Reflections
 
