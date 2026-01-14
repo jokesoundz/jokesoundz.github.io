@@ -55,6 +55,14 @@ To explore UFO sightings through the lens of _absence_, not presence - and to ex
 
 ## 🎥 Media
 
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+  <img src="/assets/images/ufo-data-explorer/UFO-truth-data-final-remarks.png" alt="screenshot of final remarks section of the UFO data analysis notebook">
+  <img src="/assets/images/ufo-data-explorer/Voronoi-diagrams-explanation.png" alt="screenshot of Voronoi diagram and explanation of mathemtical principles">
+  <img src="/assets/images/ufo-data-explorer/anomalous-data-on-mars.png" alt="screenshot of identification of anomaly using processed map image">
+  <img src="/assets/images/ufo-data-explorer/comparitive-map-of-datasets.png" alt="screenshot of map from project comparing three kinds of data">
+</div>
+  
+
 ## ⭐ Reflections
 
 ### What worked
