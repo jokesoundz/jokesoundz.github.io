@@ -1,4 +1,5 @@
-# theme: jekyll-theme-cayman //quite nice
-theme: jekyll-theme-tactile
+# theme: jekyll-theme-cayman //quite nice - blue and green
+# theme: jekyll-theme-tactile //also quite nice - grey
+theme: jekyll-theme-hacker
 title: Joe's Portfolio
 description: Take a tour around my coding projects
