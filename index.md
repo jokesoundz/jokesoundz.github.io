@@ -15,7 +15,7 @@ My work focuses on modular design, clear user experience, and playful experiment
 **Languages**
 C# • C++ • JavaScript • Python • SQL • HTML • CSS
 
-**Frameworks & LIbraries**
+**Frameworks & Libraries**
 Unity • JUCE • p5.js • XR Interaction Toolkit • OpenXR • pandas • geopandas • matplotlib • seaborn • folium • scipy
 
 **Tools & Environments**
