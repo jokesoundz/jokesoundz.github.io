@@ -24,29 +24,19 @@ Visual Studio • VS Code • Unity Editor • Jupyter Notebooks • Git • Git
 **Systems & Domains**
 VR Interaction Systems • Audio Programming • Creative Coding • Data Analysis & Visualisation • Real-time UI • Image Processing • ML-based object detection
 
-<div style="text-align: center; margin: 20px 0;">
+<figure style="margin: 20px auto; text-align: center;">
   <img src="/assets/images/joe-and-mr-ping.png"
        alt="ASCII art of Joe and his cat"
-       style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+       style="max-width: 100%; height: auto;">
   
-  <div style="
-              width: fit-content;
-              margin: 8px auto 0 auto;
-              text-align: right;
-              color: #00ff00;
-              font-family: inherit;
-  ">
-    <div style="font-size: 0.95rem;">
-      Joe &amp; Mr Ping
-    </div>
-    <div style="margin-top: 4px; font-size: 0.8rem;">
-      ASCII art generated via
-      <a href="https://www.asciiart.eu/webcam-to-ascii-art"
-         target="_blank"
-         rel="noopener noreferrer"
-         style="color: #33ff33;">
-         asciiart.eu
-      </a>
-    </div>
-  </div>
-</div>
+  <figcaption style="font-size: 0.9em; color: #666; texxt-align: right; max-width: 100%">
+    Joe &amp; Mr Ping<br>
+    ASCII art generated via
+    <a href="https://www.asciiart.eu/webcam-to-ascii-art"
+       target="_blank"
+       rel="noopener noreferrer">
+       asciiart.eu
+    </a>
+  </figcaption>
+</figure>
+
