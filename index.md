@@ -23,3 +23,6 @@ Visual Studio • VS Code • Unity Editor • Jupyter Notebooks • Git • Git
 
 **Systems & Domains**
 VR Interaction Systems • Audio Programming • Creative Coding • Data Analysis & Visualisation • Real-time UI • Image Processing • ML-based object detection
+
+![ASCII art of Joe and cat](/assets/images/joe-and-mr-ping.png)
+*ASCII art generated via [asciiart.eu](https://www.asciiart.eu/webcam-to-ascii-art)
