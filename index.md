@@ -27,13 +27,12 @@ VR Interaction Systems • Audio Programming • Creative Coding • Data Analys
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/joe-and-mr-ping.png"
        alt="ASCII art of Joe and his cat"
-       style="max-width: 100%; height; auto;">
+       style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
   
   <div style="display: inline-block; text-align: right; margin-top: 8px;">
     <div style="font-size: 0.95rem; color: #33ff33;">
       Joe &amp; Mr Ping
     </div>
-  
     <div style="margin-top: 4px; font-size: 0.8rem; color: #33ff33;">
       ASCII art generated via
       <a href="https://www.asciiart.eu/webcam-to-ascii-art"
