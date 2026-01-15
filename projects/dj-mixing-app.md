@@ -1,6 +1,6 @@
 # 🎛️ DJ Mixing App
 
-A modular DJ mixing tool built in C++ using JUCE, designed for an Object-Oriented Programming modules and shaped by real DJ workflow experience.
+A modular DJ mixing tool built in C++ using JUCE, designed for an Object-Oriented Programming module and shaped by real DJ workflow experience.
 
 ## 🧠 Concept
 
@@ -10,7 +10,7 @@ The result is a lightweight but expressive mixing tool with two decks, a functio
 
 ## 🧩 My Role
 
-- Designed the class architecture (Decks, Transport, Library, Waverform, Mixer controls)
+- Designed the class architecture (Decks, Transport, Library, Waveform, Mixer controls)
 - Implemented playback controls: cue, play/ pause, seek, tempo, volume/ fade
 - Built a track library with import flow and 'load to Deck 1/ Deck 2' interactions
 - Added waveform visualisation with click-to-seek and drag-to-set-start behaviour
@@ -36,7 +36,7 @@ To build a modular, extensible DJ app that demonstrates strong OOP design and fe
 
 ### Approach
 
-- Broke ap into modulear components with clear responsibilities
+- Broke app into modulear components with clear responsibilities
 - Used JUCE for audio playback and GUI layout
 - Designed tempo and volume controls to behave like DJ faders
 - Implemented a library import system with metadata extraction
@@ -99,6 +99,6 @@ To build a modular, extensible DJ app that demonstrates strong OOP design and fe
 ### What I learned
 
 - How to architect a real-time audio application using OOP principles
-- How JUCE strctures audio + GUI components
+- How JUCE structures audio + GUI components
 - Challenges of translating two-handed hardware workflows into mouse-only interactions
 - Importance of designing from real user practice rather than abstract UI ideas
