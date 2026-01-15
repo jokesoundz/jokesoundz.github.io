@@ -15,7 +15,7 @@ The name of the project is 'Reality is Blurry' and the long-term goal is to evol
 - Implemented locomtion, teleportation, and vignette-based comfort settings
 - Designed interaction logic with modularity and accessibilty in mind
 - Prototyped early universal-design features for low-vision players
-- Debugged collider issues, timing prbolems, and interaction edge cases
+- Debugged collider issues, timing problems, and interaction edge cases
 
 ## 🛠️ Tech Stack
 
@@ -32,7 +32,7 @@ Create VR interaction system that feels intuitive, comfortable and accessible, w
 - Must work on standard VR hardware without eye-tracking
 - Needs to minimise simulator sickness
 - Interactions must be obvious for players with varying visual abilities
-- Prototype must reamin modular for future expansion
+- Prototype must remain modular for future expansion
 
 ### Approach
 
