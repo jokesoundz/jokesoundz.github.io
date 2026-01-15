@@ -26,4 +26,4 @@ VR Interaction Systems • Audio Programming • Creative Coding • Data Analys
 
 ![ASCII art of Joe and cat](/assets/images/joe-and-mr-ping.png)
 
-*ASCII art generated via [asciiart.eu](https://www.asciiart.eu/webcam-to-ascii-art)
+*ASCII art generated via [asciiart.eu](https://www.asciiart.eu/webcam-to-ascii-art)*
