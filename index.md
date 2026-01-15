@@ -1,7 +1,7 @@
 # VR, Games, Software Developer & Creative Coder
 
 Welcome to my portfolio.  I build interactive systems across VR, audio, web, and data.
-My work focuses on modular design, clear user experience, and playful experimentation.
+My work focuses on modular systems, universal design, clear user experience, and playful experimentation.
 
 ## Featured Projects
 
