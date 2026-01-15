@@ -6,7 +6,7 @@ A playful retro-styled webcam app, 'Brat Snaps' built with p5.js, featuring cust
 
 Brat Snaps is a lightweight javascript graphics app designed around a deliberately kitschy 'brat-summer green' aesthetic.  The idea was simple: take a webcam photo, then instantly generate a 3x6 grid of stylised variations of your face.
 
-Each tile applies a different visual effect - some built using p5.js native tools, others implemented from scrach after researching analogue video systems (PAL), colour-space transofrmations (CMYK), gamma adjustment, and blur techniques.  One tile uses a machine-learning model (objectedetect) to detect a face and let the user swap it out for something else, adding a plyaful, slightly chaotic twist.
+Each tile applies a different visual effect - some built using p5.js native tools, others implemented from scratch after researching analogue video systems (PAL), colour-space transformations (CMYK), gamma adjustment, and blur techniques.  One tile uses a machine-learning model (objectdetect) to detect a face and let the user swap it for something else, adding a playful, slightly chaotic twist.
 
 ## 🧩 My Role
 
@@ -15,7 +15,7 @@ Each tile applies a different visual effect - some built using p5.js native tool
 - Built a 3x6 grid renderer for displaying processed images
 - Created custom filters (PAL distortion, gamma adjust, CMYK split, blur)
 - Integrated objectdetect to detect faces and enable face-swap behavior
-- Wrote minimal HTML scaffolding to host the app clealy in the browser
+- Wrote minimal HTML scaffolding to host the app clearly in the browser
 
 ## 🛠️ Tech Stack
 
@@ -25,7 +25,7 @@ p5.js • VS Code • JavaScript • HTML • objectdetect (ML model) • Custom
 
 ### Goal
 
-To build a simple, browser-based webcam app that generates a playful grid of stylised self-portraits using obth built-in and custom image-processing techniques.
+To build a simple, browser-based webcam app that generates a playful grid of stylised self-portraits using both built-in and custom image-processing techniques.
 
 ### Constraints
 
@@ -48,7 +48,7 @@ To build a simple, browser-based webcam app that generates a playful grid of sty
 
 ### Key Decisions
 
-- Kept app intentionally simjple and playful rather than feature-heavy
+- Kept app intentionally simple and playful rather than feature-heavy
 - Chose to implement some filters manually to learn underlying algorithms
 - Used objectdetect for lightweight, browser-friendly face detection
 - Prioritised visual identity and user delight over technical complexity
@@ -96,7 +96,7 @@ To build a simple, browser-based webcam app that generates a playful grid of sty
 
 ### What worked
 
-- Stronge, cohesive visual identity
+- Strong, cohesive visual identity
 - Fun mix of built-in and custom image-processing effects
 - Smooth webcam capture and grid rendering
 - Face-detection tile adds a surprisng, playful moment
@@ -111,5 +111,5 @@ To build a simple, browser-based webcam app that generates a playful grid of sty
 
 - How to implement image-processing algorithms from first principles
 - How to integrate lightweight ML models in the browser
-- Hot to design a chesive aesthetic around a simple technical concept
+- Hot to design a cohesive aesthetic around a simple technical concept
 - Value of keeping a project playful and exploratory
