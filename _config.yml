@@ -1,3 +1,4 @@
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman //quite nice
+theme: jekyll-theme-slate
 title: Joe's Portfolio
 description: Take a tour around my coding projects
