@@ -15,5 +15,3 @@ Project-specific icons:
 - 🛸 UFO Data Explorer
 - 🎛️ DJ Mixing App
 - 🎭 Brat Snaps Webcam Widget
-
-Keeping the portfolio scannable, modular, and consistent across projects.
