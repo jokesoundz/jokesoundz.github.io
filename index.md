@@ -9,6 +9,7 @@
   padding: 0 1rem;
   margin: 0 auto;
   box-sizing: border-box;
+  align-items: start;
 }
 
 /* Desktop: two columns */
