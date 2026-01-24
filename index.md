@@ -22,7 +22,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "hero hero"
-      "tech rpojects"
+      "tech projects"
       "figure figure";
   }
 }
@@ -61,7 +61,7 @@
 }
 
 .tech-column {
-  grid-area: projects;
+  grid-area: tech;
 }
   
 .tech-box {
