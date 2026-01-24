@@ -9,23 +9,24 @@
   grid-template-columns: 1fr; /* mobile */
   gap: 2rem;
   width: 100%;
+  max-width: 1100px;
   padding: 0 1rem;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 /* Desktop: two columns */
 @media (min-width: 900px) {
   .page-grid {
     grid-template-columns: 1fr 1fr;
-    max-width: 1100px; /* controls whole layout width */
   }
 
   .hero {
-    grid-column: 1 / 3; /* span both columns */
+    grid-column: 1 / 3;
   }
 
   figure {
-    grid-column: 1 / 3; /* span both columns */
+    grid-column: 1 / 3;
   }
 }
 
@@ -60,23 +61,13 @@
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.03);
   width: 100%;
-  max-width: 700px; /* matches tech-box + project cards */
+  box-sizing: border-box;
   margin: 0 auto;
 }
 
 /* ------------------------------ */
 /* TWO-COLUMN CONTENT             */
 /* ------------------------------ */
-
-.portfolio-columns h2 {
-  text-align: center;
-  margin-bottom: 0.8rem;
-}
-
-.projects-column,
-.tech-column {
-  flex: 1;
-}
 
 /* Project item card */
 .project-item {
@@ -121,19 +112,12 @@
   background: rgba(255, 255, 255, 0.03);
 }
 
-.portfolio-columns h3 {
-  margin-top: 1rem;
-  margin-bottom: 0.3rem;
-}
-
-  
 </style>
 
 <div class = "page-grid">
-  <!-- ------------------------------ -->
-  <!-- HERO SECTION                   -->
-  <!-- ------------------------------ -->
-  
+<!-- ------------------------------ -->
+<!-- HERO SECTION                   -->
+<!-- ------------------------------ -->
   <section class="hero">
     <h1>VR, Games, Software Developer & Creative Coder</h1>
     <div class="hero-box">
@@ -147,62 +131,57 @@
   <!-- ------------------------------ -->
   <!-- TWO-COLUMN SECTION             -->
   <!-- ------------------------------ -->
-  
-  <div class="portfolio-columns">
-    <!-- RIGHT COLUMN: PROJECTS -->
-    <div class="projects-column">
-      <h2>Featured Projects</h2>
-      <div class="project-item">
-        <a href="projects/vr-interaction-prototype">👁️ VR Interaction Prototype</a><br>
-        A modular VR interaction system exploring accessible design, gaze‑based interaction, and responsive visual/audio cues.
-      </div>
-      <div class="project-item">
-        <a href="projects/ufo-data-explorer">🛸 UFO Data Explorer</a><br>
-        A Jupyter notebook investigation into UFO sighting data, from licence checks to dead ends to insights about the limits of open datasets.
-      </div>
-      <div class="project-item">
-        <a href="projects/dj-mixing-app">🎛️ DJ Mixing App</a><br>
-        A modular JUCE-based DJ mixer with an OOP-designed cue button that mimics two-handed deck control through a hover-and-release gesture.
-        </div>
-      <div class="project-item">
-        <a href="projects/brat-snaps-webcam-widget">🎭 Brat Snaps Webcam Widget</a><br>
-        A browser‑based creative webcam filter using p5.js and ML‑based face detection for playful, stylised effects.
-      </div>
+  <!-- RIGHT COLUMN: PROJECTS -->
+  <div class="projects-column">
+    <h2>Featured Projects</h2>
+    <div class="project-item">
+      <a href="projects/vr-interaction-prototype">👁️ VR Interaction Prototype</a><br>
+      A modular VR interaction system exploring accessible design, gaze‑based interaction, and responsive visual/audio cues.
     </div>
-    <!-- LEFT COLUMN: TECH STACK -->
-    <div class="tech-column">
-      <h2>Core Tech Stack</h2>
-      <div class="tech-box">
-        <h3>Languages</h3>
-        <p>C# • C++ • Python • JavaScript • SQL • HTML • CSS</p>
-        <h3>Frameworks & Libraries</h3>
-        <p>Unity Engine • XR Interaction Toolkit • OpenXR • JUCE • p5.js • Node.js • NumPy • pandas • geopandas • Matplotlib • seaborn • folium • scipy</p>
-        <h3>Tools & Envinroments</h3>
-        <p>Unity Editor • Visual Studio • VS Code • Git • GitHub • Jupyter Notebooks</p>
-        <h3>Systems & Domains</h3>
-        <p>VR Interaction Systems • Real-time UI • Creative Coding • Audio Programming • Data Analysis & Visualisation • Image Processing • ML-based object detection • Game Mechanics • Object-Oriented Programming • Version Control</p>
+    <div class="project-item">
+      <a href="projects/ufo-data-explorer">🛸 UFO Data Explorer</a><br>
+      A Jupyter notebook investigation into UFO sighting data, from licence checks to dead ends to insights about the limits of open datasets.
+    </div>
+    <div class="project-item">
+      <a href="projects/dj-mixing-app">🎛️ DJ Mixing App</a><br>
+      A modular JUCE-based DJ mixer with an OOP-designed cue button that mimics two-handed deck control through a hover-and-release gesture.
       </div>
+    <div class="project-item">
+      <a href="projects/brat-snaps-webcam-widget">🎭 Brat Snaps Webcam Widget</a><br>
+      A browser‑based creative webcam filter using p5.js and ML‑based face detection for playful, stylised effects.
     </div>
   </div>
+  <!-- LEFT COLUMN: TECH STACK -->
+  <div class="tech-column">
+    <h2>Core Tech Stack</h2>
+    <div class="tech-box">
+      <h3>Languages</h3>
+      <p>C# • C++ • Python • JavaScript • SQL • HTML • CSS</p>
+      <h3>Frameworks & Libraries</h3>
+      <p>Unity Engine • XR Interaction Toolkit • OpenXR • JUCE • p5.js • Node.js • NumPy • pandas • geopandas • Matplotlib • seaborn • folium • scipy</p>
+      <h3>Tools & Envinroments</h3>
+      <p>Unity Editor • Visual Studio • VS Code • Git • GitHub • Jupyter Notebooks</p>
+      <h3>Systems & Domains</h3>
+      <p>VR Interaction Systems • Real-time UI • Creative Coding • Audio Programming • Data Analysis & Visualisation • Image Processing • ML-based object detection • Game Mechanics • Object-Oriented Programming • Version Control</p>
+    </div>
+  </div>
+    
+  <!-- ------------------------------ -->
+  <!-- FOOTER IMAGE                   -->
+  <!-- ------------------------------ -->
+  <figure style="margin: 20px auto; text-align: center;">
+    <img src="/assets/images/joe-and-mr-ping.png"
+         alt="ASCII art of Joe and his cat"
+         style="max-width: 100%; height: auto;">
+    <figcaption style="font-size: 0.9em; color: #666; texxt-align: right; max-width: 100%">
+      Joe &amp; Mr Ping<br>
+      ASCII art generated via
+      <a href="https://www.asciiart.eu/webcam-to-ascii-art"
+         target="_blank"
+         rel="noopener noreferrer">
+         asciiart.eu
+      </a>
+    </figcaption>
+  </figure>
 </div>
-
-<!-- ------------------------------ -->
-<!-- FOOTER IMAGE                   -->
-<!-- ------------------------------ -->
-
-<figure style="margin: 20px auto; text-align: center;">
-  <img src="/assets/images/joe-and-mr-ping.png"
-       alt="ASCII art of Joe and his cat"
-       style="max-width: 100%; height: auto;">
-  
-  <figcaption style="font-size: 0.9em; color: #666; texxt-align: right; max-width: 100%">
-    Joe &amp; Mr Ping<br>
-    ASCII art generated via
-    <a href="https://www.asciiart.eu/webcam-to-ascii-art"
-       target="_blank"
-       rel="noopener noreferrer">
-       asciiart.eu
-    </a>
-  </figcaption>
-</figure>
 
