@@ -1,4 +1,12 @@
 <style>
+
+.content-wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+  
 /* ------------------------------ */
 /* HERO SECTION                   */
 /* ------------------------------ */
@@ -11,14 +19,14 @@
 }
 
 .hero h1 {
-  font-size: 2.0rem;
-  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
   font-weight: 700;
 }
 
 .hero p {
-  font-size: 1.1rem;
-  line-height: 1.6;
+  font-size: 1.05rem;
+  line-height: 1.45;
 }
 
 .hero-box {
@@ -28,7 +36,7 @@
   background: rgba(255, 255, 255, 0.03);
   width: 100%;
   margin: 0 auto;
-  max-width: none;
+  max-width: 700px;
 }
 
 
@@ -76,6 +84,10 @@
   }
   .tech-column {
     order: 2;
+  }
+
+  .hero h1 {
+    font-size: 1.6rem;
   }
 }
 
@@ -133,58 +145,59 @@
   
 </style>
 
-<!-- ------------------------------ -->
-<!-- HERO SECTION                   -->
-<!-- ------------------------------ -->
-
-<section class="hero">
-  <h1>VR, Games, Software Developer & Creative Coder</h1>
-  <div class="hero-box">
-    <p>
-      Welcome to my portfolio.  I build interactive systems across VR, audio, web, and data.<br>
-      My work focuses on modular systems, universal design, clear user experience, and playful experimentation.
-    </p>
-  </div>
-</section>
-
-<!-- ------------------------------ -->
-<!-- TWO-COLUMN SECTION             -->
-<!-- ------------------------------ -->
-
-<div class="portfolio-columns">
-  <!-- RIGHT COLUMN: PROJECTS -->
-  <div class="projects-column">
-    <h2>Featured Projects</h2>
-    <div class="project-item">
-      <a href="projects/vr-interaction-prototype">👁️ VR Interaction Prototype</a><br>
-      A modular VR interaction system exploring accessible design, gaze‑based interaction, and responsive visual/audio cues.
+<div class = "content-wrapper">
+  <!-- ------------------------------ -->
+  <!-- HERO SECTION                   -->
+  <!-- ------------------------------ -->
+  
+  <section class="hero">
+    <h1>VR, Games, Software Developer & Creative Coder</h1>
+    <div class="hero-box">
+      <p>
+        Welcome to my portfolio.  I build interactive systems across VR, audio, web, and data.<br>
+        My work focuses on modular systems, universal design, clear user experience, and playful experimentation.
+      </p>
     </div>
-    <div class="project-item">
-      <a href="projects/ufo-data-explorer">🛸 UFO Data Explorer</a><br>
-      A Jupyter notebook investigation into UFO sighting data, from licence checks to dead ends to insights about the limits of open datasets.
-    </div>
-    <div class="project-item">
-      <a href="projects/dj-mixing-app">🎛️ DJ Mixing App</a><br>
-      A modular JUCE-based DJ mixer with an OOP-designed cue button that mimics two-handed deck control through a hover-and-release gesture.
+  </section>
+  
+  <!-- ------------------------------ -->
+  <!-- TWO-COLUMN SECTION             -->
+  <!-- ------------------------------ -->
+  
+  <div class="portfolio-columns">
+    <!-- RIGHT COLUMN: PROJECTS -->
+    <div class="projects-column">
+      <h2>Featured Projects</h2>
+      <div class="project-item">
+        <a href="projects/vr-interaction-prototype">👁️ VR Interaction Prototype</a><br>
+        A modular VR interaction system exploring accessible design, gaze‑based interaction, and responsive visual/audio cues.
       </div>
-    <div class="project-item">
-      <a href="projects/brat-snaps-webcam-widget">🎭 Brat Snaps Webcam Widget</a><br>
-      A browser‑based creative webcam filter using p5.js and ML‑based face detection for playful, stylised effects.
+      <div class="project-item">
+        <a href="projects/ufo-data-explorer">🛸 UFO Data Explorer</a><br>
+        A Jupyter notebook investigation into UFO sighting data, from licence checks to dead ends to insights about the limits of open datasets.
+      </div>
+      <div class="project-item">
+        <a href="projects/dj-mixing-app">🎛️ DJ Mixing App</a><br>
+        A modular JUCE-based DJ mixer with an OOP-designed cue button that mimics two-handed deck control through a hover-and-release gesture.
+        </div>
+      <div class="project-item">
+        <a href="projects/brat-snaps-webcam-widget">🎭 Brat Snaps Webcam Widget</a><br>
+        A browser‑based creative webcam filter using p5.js and ML‑based face detection for playful, stylised effects.
+      </div>
     </div>
-  </div>
-
-  <!-- LEFT COLUMN: TECH STACK -->
-  <div class="tech-column">
-    <h2>Core Tech Stack</h2>
-    <div class="tech-box">
-      <h3>Languages</h3>
-      <p>C# • C++ • Python • JavaScript • SQL • HTML • CSS</p>
-      <h3>Frameworks & Libraries</h3>
-      <p>Unity Engine • XR Interaction Toolkit • OpenXR • JUCE • p5.js • Node.js • NumPy • pandas • geopandas • Matplotlib • seaborn • folium • scipy</p>
-      <h3>Tools & Envinroments</h3>
-      <p>Unity Editor • Visual Studio • VS Code • Git • GitHub • Jupyter Notebooks</p>
-      <h3>Systems & Domains</h3>
-      <p>VR Interaction Systems • Real-time UI • Creative Coding • Audio Programming • Data Analysis & Visualisation • Image Processing • ML-based object detection • Game Mechanics • Object-Oriented Programming • Version Control</p>
+    <!-- LEFT COLUMN: TECH STACK -->
+    <div class="tech-column">
+      <h2>Core Tech Stack</h2>
+      <div class="tech-box">
+        <h3>Languages</h3>
+        <p>C# • C++ • Python • JavaScript • SQL • HTML • CSS</p>
+        <h3>Frameworks & Libraries</h3>
+        <p>Unity Engine • XR Interaction Toolkit • OpenXR • JUCE • p5.js • Node.js • NumPy • pandas • geopandas • Matplotlib • seaborn • folium • scipy</p>
+        <h3>Tools & Envinroments</h3>
+        <p>Unity Editor • Visual Studio • VS Code • Git • GitHub • Jupyter Notebooks</p>
+        <h3>Systems & Domains</h3>
+        <p>VR Interaction Systems • Real-time UI • Creative Coding • Audio Programming • Data Analysis & Visualisation • Image Processing • ML-based object detection • Game Mechanics • Object-Oriented Programming • Version Control</p>
+      </div>
     </div>
   </div>
 </div>
