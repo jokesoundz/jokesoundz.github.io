@@ -4,6 +4,7 @@
 /* ------------------------------ */
 
 .hero {
+  width: 100%;
   text-align: center;
   margin: 3rem auto 2rem;
   padding: 0 1rem;
@@ -25,9 +26,9 @@
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.03);
-  max-width: 900px;
-  margin: 0 auto 2.5rem;
   width: 100%;
+  margin: 0 auto;
+  max-width: none;
 }
 
 
