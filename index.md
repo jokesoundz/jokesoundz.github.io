@@ -21,6 +21,16 @@
   line-height: 1.6;
 }
 
+.hero-box {
+  padding: 1.5rem 1.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  max-width: 900px;
+  margin: 0 auto 2.5rem;
+}
+
+
 /* ------------------------------ */
 /* TWO-COLUMN LAYOUT              */
 /* ------------------------------ */
@@ -30,6 +40,10 @@
   flex-direction: column; /* Mobile default */
   gap: 2rem;
   margin-top: 2rem;
+}
+
+.portfolio-columns h2 {
+  text-align: center;
 }
 
 /* Column base styles */
@@ -124,10 +138,12 @@
 
 <section class="hero">
   <h1>VR, Games, Software Developer & Creative Coder</h1>
-  <p>
-    Welcome to my portfolio.  I build interactive systems across VR, audio, web, and data.<br>
-    My work focuses on modular systems, universal design, clear user experience, and playful experimentation.
-  </p>
+  <div class="hero-box">
+    <p>
+      Welcome to my portfolio.  I build interactive systems across VR, audio, web, and data.<br>
+      My work focuses on modular systems, universal design, clear user experience, and playful experimentation.
+    </p>
+  </div>
 </section>
 
 <!-- ------------------------------ -->
