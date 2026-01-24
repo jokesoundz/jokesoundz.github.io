@@ -6,7 +6,7 @@
 .hero {
   text-align: center;
   margin: 3rem auto 2rem;
-  max-width: 800px;
+  max-width: 1000px;
   padding: 0 1rem;
 }
 
@@ -72,13 +72,19 @@
 
 /* Project links */
 .project-item a {
+  display: inline-block;
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
   font-weight: bold;
   text-decoration: none;
   color: inherit;
+  transition: background 0.2s;
 }
 
 .project-item a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  background: rgba(255, 255, 255, 0.18);
 }
 
 /* Optional: tighten headings */
