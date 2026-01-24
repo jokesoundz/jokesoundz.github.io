@@ -1,27 +1,52 @@
 <style>
 
-.content-wrapper {
+/* ------------------------------ */
+/* PAGE GRID LAYOUT               */
+/* ------------------------------ */
+
+.page-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* mobile */
+  gap: 2rem;
   width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
   padding: 0 1rem;
+  margin: 0 auto;
 }
-  
+
+/* Desktop: two columns */
+@media (min-width: 900px) {
+  .page-grid {
+    grid-template-columns: 1fr 1fr;
+    max-width: 1100px; /* controls whole layout width */
+  }
+
+  .hero {
+    grid-column: 1 / 3; /* span both columns */
+  }
+
+  figure {
+    grid-column: 1 / 3; /* span both columns */
+  }
+}
+
 /* ------------------------------ */
 /* HERO SECTION                   */
 /* ------------------------------ */
 
 .hero {
-  width: 100%;
   text-align: center;
-  /* margin: 3rem auto 2rem;
-  padding: 0 1rem; */
 }
 
 .hero h1 {
-  font-size: 1.8rem;
-  margin-bottom: 0.8rem;
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
   font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  .hero h1 {
+    font-size: 1.6rem;
+  }
 }
 
 .hero p {
@@ -35,60 +60,22 @@
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.03);
   width: 100%;
+  max-width: 700px; /* matches tech-box + project cards */
   margin: 0 auto;
-  max-width: 700px;
 }
 
-
 /* ------------------------------ */
-/* TWO-COLUMN LAYOUT              */
+/* TWO-COLUMN CONTENT             */
 /* ------------------------------ */
-
-.portfolio-columns {
-  display: flex;
-  flex-direction: column; /* Mobile default */
-  gap: 2rem;
-  margin-top: 2rem;
-}
 
 .portfolio-columns h2 {
   text-align: center;
+  margin-bottom: 0.8rem;
 }
 
-/* Column base styles */
 .projects-column,
 .tech-column {
   flex: 1;
-}
-
-/* Desktop layout */
-@media (min-width: 900px) {
-  .portfolio-columns {
-    flex-direction: row; /* Side-by-side */
-    align-items: flex-start;
-  }
-
-  /* Desktop order: Tech left, Projects right */
-  .tech-column {
-    order: 1;
-  }
-  .projects-column {
-    order: 2;
-  }
-}
-
-/* Mobile layout: Projects first, Tech second */
-@media (max-width: 899px) {
-  .projects-column {
-    order: 1;
-  }
-  .tech-column {
-    order: 2;
-  }
-
-  .hero h1 {
-    font-size: 1.6rem;
-  }
 }
 
 /* Project item card */
@@ -101,7 +88,7 @@
   transition: background 0.2s, border-color 0.2s;
 }
 
-.project-item: hover {
+.project-item:hover {
   background: rgba(255, 255, 255, 0.06);
   border-color: rgba(255, 255, 255, 0.18);
 }
@@ -127,8 +114,11 @@
   background: rgba(255, 255, 255, 0.26);
 }
 
-.portfolio-columns h2 {
-  margin-bottom: 0.8rem;
+.tech-box {
+  padding: 1rem 1.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
 }
 
 .portfolio-columns h3 {
@@ -136,16 +126,10 @@
   margin-bottom: 0.3rem;
 }
 
-.tech-box {
-  padding: 1rem 1.2rem;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.03);
-}
   
 </style>
 
-<div class = "content-wrapper">
+<div class = "page-grid">
   <!-- ------------------------------ -->
   <!-- HERO SECTION                   -->
   <!-- ------------------------------ -->
