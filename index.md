@@ -71,7 +71,6 @@
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.03);
-  /* line-height: 1.5; */
   transition: background 0.2s, border-color 0.2s;
 }
 
@@ -101,7 +100,6 @@
   background: rgba(255, 255, 255, 0.26);
 }
 
-/* Optional: tighten headings */
 .portfolio-columns h2 {
   margin-bottom: 0.8rem;
 }
@@ -111,6 +109,13 @@
   margin-bottom: 0.3rem;
 }
 
+.tech-box {
+  padding: 1rem 1.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+}
+  
 </style>
 
 <!-- ------------------------------ -->
@@ -134,19 +139,19 @@
   <div class="projects-column">
     <h2>Featured Projects</h2>
     <div class="project-item">
-      <a href="projects/vr-interaction-prototype.md">👁️ VR Interaction Prototype</a><br>
+      <a href="projects/vr-interaction-prototype">👁️ VR Interaction Prototype</a><br>
       A modular VR interaction system exploring accessible design, gaze‑based interaction, and responsive visual/audio cues.
     </div>
     <div class="project-item">
-      <a href="projects/ufo-data-explorer.md">🛸 UFO Data Explorer</a><br>
+      <a href="projects/ufo-data-explorer">🛸 UFO Data Explorer</a><br>
       A Jupyter notebook investigation into UFO sighting data, from licence checks to dead ends to insights about the limits of open datasets.
     </div>
     <div class="project-item">
-      <a href="projects/dj-mixing-app.md">🎛️ DJ Mixing App</a><br>
+      <a href="projects/dj-mixing-app">🎛️ DJ Mixing App</a><br>
       A modular JUCE-based DJ mixer with an OOP-designed cue button that mimics two-handed deck control through a hover-and-release gesture.
       </div>
     <div class="project-item">
-      <a href="projects/brat-snaps-webcam-widget.md">🎭 Brat Snaps Webcam Widget</a><br>
+      <a href="projects/brat-snaps-webcam-widget">🎭 Brat Snaps Webcam Widget</a><br>
       A browser‑based creative webcam filter using p5.js and ML‑based face detection for playful, stylised effects.
     </div>
   </div>
@@ -154,14 +159,16 @@
   <!-- LEFT COLUMN: TECH STACK -->
   <div class="tech-column">
     <h2>Core Tech Stack</h2>
-    <h3>Languages</h3>
-    <p>C# • C++ • Python • JavaScript • SQL • HTML • CSS</p>
-    <h3>Frameworks & Libraries</h3>
-    <p>Unity Engine • XR Interaction Toolkit • OpenXR • JUCE • p5.js • Node.js • NumPy • pandas • geopandas • Matplotlib • seaborn • folium • scipy</p>
-    <h3>Tools & Envinroments</h3>
-    <p>Unity Editor • Visual Studio • VS Code • Git • GitHub • Jupyter Notebooks</p>
-    <h3>Systems & Domains</h3>
-    <p>VR Interaction Systems • Real-time UI • Creative Coding • Audio Programming • Data Analysis & Visualisation • Image Processing • ML-based object detection • Game Mechanics • Object-Oriented Programming • Version Control</p>
+    <div class="tech-box">
+      <h3>Languages</h3>
+      <p>C# • C++ • Python • JavaScript • SQL • HTML • CSS</p>
+      <h3>Frameworks & Libraries</h3>
+      <p>Unity Engine • XR Interaction Toolkit • OpenXR • JUCE • p5.js • Node.js • NumPy • pandas • geopandas • Matplotlib • seaborn • folium • scipy</p>
+      <h3>Tools & Envinroments</h3>
+      <p>Unity Editor • Visual Studio • VS Code • Git • GitHub • Jupyter Notebooks</p>
+      <h3>Systems & Domains</h3>
+      <p>VR Interaction Systems • Real-time UI • Creative Coding • Audio Programming • Data Analysis & Visualisation • Image Processing • ML-based object detection • Game Mechanics • Object-Oriented Programming • Version Control</p>
+    </div>
   </div>
 </div>
 
