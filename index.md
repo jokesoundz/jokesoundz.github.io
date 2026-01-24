@@ -68,6 +68,7 @@
 .project-item {
   margin-bottom: 1.2rem;
   line-height: 1.5;
+  color: var(--color-fg-muted, var(--color-fg-subtle, #999); /* inherit color from description field in _config.yml file */
 }
 
 /* Project links */
