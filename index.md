@@ -6,8 +6,8 @@
 .hero {
   width: 100%;
   text-align: center;
-  margin: 3rem auto 2rem;
-  padding: 0 1rem;
+  /* margin: 3rem auto 2rem;
+  padding: 0 1rem; */
 }
 
 .hero h1 {
