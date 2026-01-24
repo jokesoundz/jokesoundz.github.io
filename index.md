@@ -115,6 +115,29 @@
   background: rgba(255, 255, 255, 0.26);
 }
 
+.project-link-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: none; /* disabled on desktop */
+}
+
+@media (max-width: 900px) {
+  .project-item {
+    position: relative;
+  }
+
+  .project-link-overlay {
+    display: block; /* whole card is now a link */
+  }
+
+  /* Keep the real button above the overlay */
+  .project-button {
+    position: relative;
+    z-index: 2;
+  }
+}
+  
 figure {
   grid-area: figure;
 }
@@ -142,18 +165,22 @@ figure {
   <div class="projects-column">
     <h2>Featured Projects</h2>
     <div class="project-item">
+      <a class="project-link-overlay" href="projects/vr-interaction-prototype"></a>
       <a href="projects/vr-interaction-prototype">👁️ VR Interaction Prototype</a><br>
       A modular VR interaction system exploring accessible design, gaze‑based interaction, and responsive visual/audio cues.
     </div>
     <div class="project-item">
+      <a class="project-link-overlay" href="projects/ufo-data-explorer"></a>
       <a href="projects/ufo-data-explorer">🛸 UFO Data Explorer</a><br>
       A Jupyter notebook investigation into UFO sighting data, from licence checks to dead ends to insights about the limits of open datasets.
     </div>
     <div class="project-item">
+      <a class="project-link-overlay" href="projects/dj-mixing-app"></a>
       <a href="projects/dj-mixing-app">🎛️ DJ Mixing App</a><br>
       A modular JUCE-based DJ mixer with an OOP-designed cue button that mimics two-handed deck control through a hover-and-release gesture.
       </div>
     <div class="project-item">
+      <a class="project-link-overlay" href="projects/brat-snaps-webcam-widget"></a>
       <a href="projects/brat-snaps-webcam-widget">🎭 Brat Snaps Webcam Widget</a><br>
       A browser‑based creative webcam filter using p5.js and ML‑based face detection for playful, stylised effects.
     </div>
