@@ -1,9 +1,5 @@
 <style>
 
-/* ------------------------------ */
-/* PAGE GRID LAYOUT               */
-/* ------------------------------ */
-
 .page-grid {
   display: grid;
   grid-template-columns: 1fr; /* mobile */
@@ -28,11 +24,15 @@
   figure {
     grid-column: 1 / 3;
   }
-}
+  
+  .tech-column {
+    grid-column: 1;
+  }
 
-/* ------------------------------ */
-/* HERO SECTION                   */
-/* ------------------------------ */
+  .projects-column {
+    grid-column: 2;
+  }
+}
 
 .hero {
   text-align: center;
@@ -55,6 +55,7 @@
   line-height: 1.45;
 }
 
+/* Box styles */
 .hero-box {
   padding: 1.5rem 1.8rem;
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -65,11 +66,13 @@
   margin: 0 auto;
 }
 
-/* ------------------------------ */
-/* TWO-COLUMN CONTENT             */
-/* ------------------------------ */
+.tech-box {
+  padding: 1rem 1.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+}
 
-/* Project item card */
 .project-item {
   margin-bottom: 0.8rem;
   padding: 1rem;
@@ -103,13 +106,6 @@
 
 .project-item a:active {
   background: rgba(255, 255, 255, 0.26);
-}
-
-.tech-box {
-  padding: 1rem 1.2rem;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.03);
 }
 
 </style>
