@@ -64,27 +64,37 @@
   }
 }
 
-/* Project item spacing */
+/* Project item card */
 .project-item {
   margin-bottom: 1.2rem;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
   line-height: 1.5;
-  color: var(--color-fg-muted, var(--color-fg-subtle, #999); /* inherit color from description field in _config.yml file */
+  transition: background 0.2s, border-color 0.2s;
 }
 
-/* Project links */
+.project-item: hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+/* Project link button */
 .project-item a {
-  display: inline-block;
-  padding: 4px 8px;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.10);
+  border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
   color: inherit;
   transition: background 0.2s;
+  margin-bottom: 6px;
 }
 
 .project-item a:hover {
-  /* text-decoration: underline; */
   background: rgba(255, 255, 255, 0.18);
 }
 
