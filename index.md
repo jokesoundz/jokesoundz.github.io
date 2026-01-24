@@ -95,7 +95,7 @@
 }
 
 /* Project link button */
-.project-item a {
+.project-item a:not(.project-link-overlay) {
   display: inline-block;
   padding: 4px 10px;
   background: rgba(255, 255, 255, 0.10);
@@ -107,11 +107,11 @@
   margin-bottom: 6px;
 }
 
-.project-item a:hover {
+.project-item a:not(.project-link-overlay):hover {
   background: rgba(255, 255, 255, 0.18);
 }
 
-.project-item a:active {
+.project-item a:not(.project-link-overlay):active {
   background: rgba(255, 255, 255, 0.26);
 }
 
