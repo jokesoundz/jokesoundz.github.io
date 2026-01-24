@@ -6,7 +6,6 @@
 .hero {
   text-align: center;
   margin: 3rem auto 2rem;
-  max-width: 1000px;
   padding: 0 1rem;
 }
 
@@ -28,6 +27,7 @@
   background: rgba(255, 255, 255, 0.03);
   max-width: 900px;
   margin: 0 auto 2.5rem;
+  width: 100%;
 }
 
 
