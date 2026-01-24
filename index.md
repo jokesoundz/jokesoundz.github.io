@@ -60,6 +60,11 @@
   margin: 0 auto;
 }
 
+.projects-column h2,
+.tech-column h2 {
+  text-align: center;
+}
+  
 .tech-column {
   grid-area: tech;
 }
@@ -110,7 +115,7 @@
   background: rgba(255, 255, 255, 0.26);
 }
 
-.figure {
+figure {
   grid-area: figure;
 }
 
