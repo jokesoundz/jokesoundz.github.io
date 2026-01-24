@@ -2,40 +2,33 @@
 
 .page-grid {
   display: grid;
-  grid-template-columns: 1fr; /* mobile */
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "hero"
+    "projects"
+    "tech"
+    "figure";
   gap: 2rem;
   width: 100%;
   max-width: 1100px;
   padding: 0 1rem;
   margin: 0 auto;
   box-sizing: border-box;
-  align-items: start;
 }
 
 /* Desktop: two columns */
 @media (min-width: 900px) {
   .page-grid {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .hero {
-    grid-column: 1 / 3;
-  }
-
-  figure {
-    grid-column: 1 / 3;
-  }
-  
-  .tech-column {
-    grid-column: 1;
-  }
-
-  .projects-column {
-    grid-column: 2;
+    grid-template-areas:
+      "hero hero"
+      "tech rpojects"
+      "figure figure";
   }
 }
 
 .hero {
+  grid-area: hero;
   text-align: center;
 }
 
@@ -67,6 +60,10 @@
   margin: 0 auto;
 }
 
+.tech-column {
+  grid-area: projects;
+}
+  
 .tech-box {
   padding: 1rem 1.2rem;
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -74,6 +71,10 @@
   background: rgba(255, 255, 255, 0.03);
 }
 
+.projects-column {
+  grid-area: projects;
+}
+  
 .project-item {
   margin-bottom: 0.8rem;
   padding: 1rem;
@@ -107,6 +108,10 @@
 
 .project-item a:active {
   background: rgba(255, 255, 255, 0.26);
+}
+
+.figure {
+  grid-area: figure;
 }
 
 </style>
