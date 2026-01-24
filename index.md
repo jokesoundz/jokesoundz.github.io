@@ -1,7 +1,36 @@
-# VR, Games, Software Developer & Creative Coder
+<style>
+/* ------------------------------ */
+/* HERO SECTION                   */
+/* ------------------------------ */
 
-Welcome to my portfolio.  I build interactive systems across VR, audio, web, and data.
-My work focuses on modular systems, universal design, clear user experience, and playful experimentation.
+.hero {
+  text-align: center;
+  margin: 3rem auto 2rem;
+  max-width: 800px;
+  padding: 0 1rem;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+  
+</style>
+
+<section class="hero">
+  <h1>VR, Games, Software Developer & Creative Coder</h1>
+  <p>
+    Welcome to my portfolio.  I build interactive systems across VR, audio, web, and data.<br>
+    My work focuses on modular systems, universal design, clear user experience, and playful experimentation.
+  </p>
+</section>
+
 
 ## Featured Projects
 
@@ -13,16 +42,16 @@ My work focuses on modular systems, universal design, clear user experience, and
 ## Core Tech Stack
 
 **Languages**
-C# • C++ • JavaScript • Python • SQL • HTML • CSS
+C# • C++ • Python • JavaScript • SQL • HTML • CSS 
 
 **Frameworks & Libraries**
-Unity • JUCE • p5.js • XR Interaction Toolkit • OpenXR • pandas • geopandas • matplotlib • seaborn • folium • scipy
+Unity Engine • XR Interaction Toolkit • OpenXR • JUCE • p5.js • Node.js • NumPy • pandas • geopandas • Matplotlib • seaborn • folium • scipy
 
 **Tools & Environments**
-Visual Studio • VS Code • Unity Editor • Jupyter Notebooks • Git • GitHub Pages • Node.js
+Unity Editor • Visual Studio • VS Code • Git • GitHub • Jupyter Notebooks
 
 **Systems & Domains**
-VR Interaction Systems • Audio Programming • Creative Coding • Data Analysis & Visualisation • Real-time UI • Image Processing • ML-based object detection
+VR Interaction Systems • Real-time UI • Creative Coding • Audio Programming • Data Analysis & Visualisation • Image Processing • ML-based object detection • Game Mechanics • Object-Oriented Programming • Version Control
 
 <figure style="margin: 20px auto; text-align: center;">
   <img src="/assets/images/joe-and-mr-ping.png"
