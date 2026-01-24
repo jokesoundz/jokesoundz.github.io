@@ -66,12 +66,12 @@
 
 /* Project item card */
 .project-item {
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.8rem;
   padding: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.03);
-  line-height: 1.5;
+  /* line-height: 1.5; */
   transition: background 0.2s, border-color 0.2s;
 }
 
@@ -82,9 +82,8 @@
 
 /* Project link button */
 .project-item a {
-  display: block;
-  width: 100%;
-  padding: 8px 12px;
+  display: inline-block;
+  padding: 4px 10px;
   background: rgba(255, 255, 255, 0.10);
   border-radius: 6px;
   font-weight: bold;
@@ -96,6 +95,10 @@
 
 .project-item a:hover {
   background: rgba(255, 255, 255, 0.18);
+}
+
+.project-item a:active {
+  background: rgba(255, 255, 255, 0.26);
 }
 
 /* Optional: tighten headings */
