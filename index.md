@@ -130,12 +130,6 @@
   .project-link-overlay {
     display: block; /* whole card is now a link */
   }
-
-  /* Keep the real button above the overlay */
-  .project-button {
-    position: relative;
-    z-index: 2;
-  }
 }
   
 figure {
